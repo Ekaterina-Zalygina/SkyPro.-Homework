@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.start_body {
+    background-image: url(foto/hw1.png);
+    max-width: 1440px;
+    height: 1580px;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding-left: 120px;
+}
+
+.welcome {
+    display: flex;
+    width: 788.778px;
+    height: 125.007px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 217px;
+}
+
+.heading {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    /* 177.778% */
+    max-width: 481px;
+    margin-top: 32px;
+}
+
+.span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.go {
+    margin-top: 44px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 30px;
+    background: #9C0332;
+    max-width: 234px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 74px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-image: url(foto/footer.png);
+    width: 1440px;
+    height: 556px;
+    flex-shrink: 0;
+    margin-top: 493px;
+}
+
+.game {
+    display: flex;
+    margin-top: 128px;
+    margin-left: 120px;
+    margin-right: 120px;
+    gap: 32px;
+}
+
+.game1 {
+    position: relative;
+}
+
+.game2 {
+    position: relative;
+}
+
+.game3 {
+    position: relative;
+}
+
+.game_foto {
+    width: 379px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.game_text {
+    position: absolute;
+    right: 268px;
+    left: 32px;
+    bottom: 32px;
+    display: flex;
+    width: 79px;
+    height: 31.639px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 133.333% */
+}
