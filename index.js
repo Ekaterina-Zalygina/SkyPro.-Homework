@@ -41,8 +41,8 @@
 // num -= 3;
 // num *= 7;
 // num /= 3;
-// num += 1;
-// num -= 1;
+// num ++ 1;
+// num -- 1;
 // alert(num);
 
 //8 задание
@@ -55,15 +55,18 @@
 //     age: 23,
 //     isAdmin: true
 // }
+
 // user.cityOfResidence = 'Москва';
+
+// user.age = 24;
+
+// delete user.cityOfResidence;
+
 // let info = prompt('Какую информацию хотите узнать о пользователе?');
 
 // let user = 'info';
 // alert(info);
 
 // let name = prompt('Как Вас зовут?');
-// var hello = 'Привет, ';
-// var username = 'ИМЯ!';
-// result = hello + username;
-// alert(result);
+// alert('Привет, ${name}!');
 
