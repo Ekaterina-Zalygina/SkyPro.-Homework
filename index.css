@@ -1,0 +1,126 @@
+@media (max-width: 767px) {
+  .header {
+    padding-left: 0px;
+    padding-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 343px;
+    height: 77.436px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .heading {
+    width: 343px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    /* 157.143% */
+  }
+
+  .span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .go {
+    width: 234px;
+    border-radius: 30px;
+    background: #9C0332;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+  }
+  .game_foto {
+    width: 343px;
+    border-radius: 16px;
+  }
+
+  .seasons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description_seasons {
+    display: flex;
+    align-items: center;
+  }
+
+  .time_seasons {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .text_play {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    /* 157.143% */
+  }
+  .play {
+    width: 234px;
+    height: 48.603px;
+    border-radius: 30px;
+    background: #9C0332;
+  }
+  .game_image_seasons {
+    width: 344px;
+    height: 236px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */
