@@ -1,4 +1,15 @@
 @media (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .start_body {
+        background-image: url(foto/hw1.png);
+        height: 1580px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
     .header {
         padding-left: 0px;

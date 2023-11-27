@@ -78,6 +78,11 @@
 // alert('Привет, ${name}!');
 
 
+
+
+
+
+
 //Домашняя работа 2.3
 
 //Задание 1
@@ -144,6 +149,11 @@
 // }
 
 
+
+
+
+
+
 // Домашняя работа 2.4
 
 //Задание 1
@@ -190,3 +200,123 @@
 // for (let i = friday; i<=31; i+=7) {
 //     alert('Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.')
 // }
+
+
+
+
+
+
+//Домашняя работа 2.5
+
+//Задание 1
+// function numbers(a, b) {
+//     if (a > b)
+//     return b; 
+//     else  
+//     return a;
+// }
+
+// alert(numbers(8, 4))
+
+//Задание 2
+// function number(a) {
+//     if (a % 2 == 0) {
+//         console.log('Число четное');
+//         return a;
+//     }
+//     else {
+//         console.log('Число нечетное');
+//         return a;
+//     }
+// }
+
+//Задание 3.1
+// function mult(a) {
+//     console.log(a**2)
+// }
+
+//Задание 3.2
+// function multe(a) {
+//     return (a**2);
+// }
+
+//Задание 4
+// let userAge = prompt('Сколько Вам лет?');
+// if (userAge < 0) {
+//     alert('Вы ввели неправильное значение');
+// }
+// if (userAge <= 12) {
+//     alert('Привет, друг!')
+// }
+// else {
+//     alert('Добро пожаловать!')
+// }
+
+//Задание 5
+// function numbers(a, b) {
+//     if(isNaN(a) || isNaN(b)) {
+//         return 'Одно или оба значения не являются числом';
+//     }
+//     else {
+//         return a * b;
+//     }
+// }
+
+//Задание 6
+// function multDate() {
+//     let numb = prompt('Ввести число');
+//     numb = Number(numb);
+//     if (numb) {
+//         return `${numb} в кубе равняется ${numb ** 3}`
+//     }
+//     else {
+//         return 'Переданный параметр не является числом';
+//     }
+// }
+// console.log(multDate());
+
+//Задание 7 
+// function getArea() {
+//     return 3.14 * this.radius * this.radius;
+// }
+
+// function getPerimeter() {
+//     return 2 * 3.14 * this.radius;
+// }
+
+// let circle1 = {
+//     radius: 7,
+//     getArea: getArea,
+//     getPerimeter: getPerimeter
+// }
+
+// let circle2 = {
+//     radius: 10,
+//     getArea: getArea,
+//     getPerimeter: getPerimeter
+// }
+
+// console.log(circle1.getArea());
+// console.log(circle1.getPerimeter());
+// console.log(circle2.getArea());
+// console.log(circle2.getPerimeter());
+
+//Задание 8
+// function seasons(month) {
+//     if (month == 1 || month == 2 || month == 12) {
+//         return 'Зима'
+//     }
+//     if (month == 3 || month == 4 || month == 5) {
+//         return 'Весна';
+//     } 
+//     if (month == 6 || month == 7 || month == 8) {
+//         return 'Лето';
+//     } 
+//     if (month == 9 || month == 10 || month == 11) {
+//         return 'Осень';
+//     } 
+//     else {
+//         return 'Неверное значение';
+//     };
+// }
+// alert(seasons(prompt('Введите данные')));
