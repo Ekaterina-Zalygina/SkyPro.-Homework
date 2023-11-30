@@ -5,6 +5,7 @@
 
 .start_body {
   background-image: url(foto/hw1.png);
+  max-width: 1440px;
   height: 1580px;
   background-repeat: no-repeat;
 }
@@ -15,6 +16,7 @@
 
 .welcome {
   display: flex;
+  width: 788.778px;
   height: 125.007px;
   flex-direction: column;
   justify-content: center;
@@ -36,6 +38,7 @@
   font-weight: 300;
   line-height: 32px;
   /* 177.778% */
+  max-width: 481px;
   margin-top: 32px;
 }
 
@@ -175,6 +178,16 @@
 }
 
 @media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .start_body {
+    background-image: url(foto/hw1.png);
+    height: 1580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .header {
     padding-left: 0px;
     padding-left: 0px;
@@ -242,6 +255,7 @@
   .description_seasons {
     display: flex;
     align-items: center;
+    margin-left: -120px;
   }
   .time_seasons {
     color: #FFF;

@@ -326,19 +326,22 @@
 
 
 
+
 //Домашняя работа 2.6
 
 //Задание 1
 // const sum = [1, 5, 4, 10, 0, 3];
 // for (let i = 0; i < sum.length; i++) {
-//     if (sum[i] == 10) break;
-//     console.log(sim[i]);
+//     console.log(sum[i]);
+//     if (sum[i] === 10) {    
+//         break;
+//     }
 // }
 
 //Задание 2
 // const number = [1, 5, 4, 10, 0, 3];
 // number.forEach((el, index) => {
-//     console.log('el ${index}: index ${el}');
+//     console.log(`el ${index}: index ${el}`);
 // });
 
 //Задание 3
@@ -347,24 +350,15 @@
 // console.log(number);
 
 //Задание 4 
-// let date = [];
+// let digit = [];
 // for (let i = 0; i < 3; i++) {
-//     date[i] = [1];
+//     let newDigit = [];
+//     for (let p = 0; p < 3; p++) {
+//         newDigit.push(1);
+//     }
+//     digit.push(newDigit);
 // }
-
-// let date2 = [];
-// for (let x = 0; x < 3; x++) {
-//     date2[x] = [1];
-// }
-
-// let date3 = [];
-// for (let p = 0; p < 3; p++) {
-//     date3[p] = [1];
-// }
-
-// console.log(date);
-// console.log(date2);
-// console.log(date3);
+// console.log(digit);
 
 //Задание 5
 // let numbers = [1, 1, 1];
@@ -393,13 +387,13 @@
 
 //Задание 9
 // let numbers = [[1, 2, 3,],[4, 5, 6]];
-// numbers = numbers.join();
-// console.log(numbers);
+// let newNumbers = numbers.flat();
+// console.log(newNumbers);
 
 //Задание 10 
 // let numbers = [1, 2, 3, 5, 7];
 // for (let i = 0; i < numbers.length - 1; i++) {
-// console.log(numbers[1] + numbers[i + 1]);
+// console.log(numbers[i] + numbers[i + 1]);
 // }
 
 //Задание 11 
@@ -415,9 +409,10 @@
 //Задание 13
 // function filterPositive(array) {
 //     let result = [];
-//     for (let i = 0; i < array.length; i++) 
-//     if (array < 0) {
-//         XPathResult.push(array[i]);
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] < 0) {
+//             result.push(array[i]);
+//         }
 //     }
 //     return result;
 // }
