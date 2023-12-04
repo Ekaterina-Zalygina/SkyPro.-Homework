@@ -1,43 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">       
-</head> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
 
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div class="start_body">                       
 
-        <header>       
+    <div class="start_body">
 
-            <div class="center top_header">
+        <div class="header">
+            <h1 class="welcome">Добро пожаловать<br> на мой сайт !</h1>
+            <p class="heading">Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай <span class="span">поехали</span> и <span class="span">приступай</span></p>
+            <button  class="go">Поехали!</button>
+        </div>
 
-                <header class="header">
-                    <h1 class="welcome">Добро пожаловать<br> на мой сайт !</h1>
-                    <p class="heading">Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай <span
-                            class="span">поехали</span> и <span class="span">приступай</span> </p>
-                    <p class="go">Поехали!</p>
-                </header>
-
-            </div>
-
-        </header>
-
-        <div class="game_main"> 
+        <div class="game_main">
 
             <div class="game">
 
                 <div class="game1">
                     <img class="game_foto" src="foto/game1.png" alt="">
-                    <a class="game_text" href="" onclick="alert(seasons(prompt('Введите данные')))">Игра 1</a>
+                    <a class="game_text" href="index.html" onclick="alert(seasons(prompt('Введите данные')))">Игра 1</a>
                 </div>
 
 
@@ -68,7 +55,7 @@
         </div>
 
     </div>
-
+  
+    <script src="./index.js"></script>
 </body>
-
 </html>

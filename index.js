@@ -302,24 +302,24 @@
 // console.log(circle2.getPerimeter());
 
 //Задание 8
-// function seasons(month) {
-//     if (month == 1 || month == 2 || month == 12) {
-//         return 'Зима'
-//     }
-//     if (month == 3 || month == 4 || month == 5) {
-//         return 'Весна';
-//     } 
-//     if (month == 6 || month == 7 || month == 8) {
-//         return 'Лето';
-//     } 
-//     if (month == 9 || month == 10 || month == 11) {
-//         return 'Осень';
-//     } 
-//     else {
-//         return 'Неверное значение';
-//     };
-// }
-// alert(seasons(prompt('Введите данные')));
+function seasons(month) {
+    if (month == 1 || month == 2 || month == 12) {
+        return 'Зима'
+    }
+    if (month == 3 || month == 4 || month == 5) {
+        return 'Весна';
+    } 
+    if (month == 6 || month == 7 || month == 8) {
+        return 'Лето';
+    } 
+    if (month == 9 || month == 10 || month == 11) {
+        return 'Осень';
+    } 
+    else {
+        return 'Неверное значение';
+    };
+}
+alert(seasons(prompt('Введите данные')));
 
 
 
