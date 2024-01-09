@@ -302,24 +302,24 @@
 // console.log(circle2.getPerimeter());
 
 //Задание 8
-function seasons(month) {
-    if (month == 1 || month == 2 || month == 12) {
-        return 'Зима'
-    }
-    if (month == 3 || month == 4 || month == 5) {
-        return 'Весна';
-    } 
-    if (month == 6 || month == 7 || month == 8) {
-        return 'Лето';
-    } 
-    if (month == 9 || month == 10 || month == 11) {
-        return 'Осень';
-    } 
-    else {
-        return 'Неверное значение';
-    };
-}
-alert(seasons(prompt('Введите данные')));
+// function seasons(month) {
+//     if (month == 1 || month == 2 || month == 12) {
+//         return 'Зима'
+//     }
+//     if (month == 3 || month == 4 || month == 5) {
+//         return 'Весна';
+//     } 
+//     if (month == 6 || month == 7 || month == 8) {
+//         return 'Лето';
+//     } 
+//     if (month == 9 || month == 10 || month == 11) {
+//         return 'Осень';
+//     } 
+//     else {
+//         return 'Неверное значение';
+//     };
+// }
+// alert(seasons(prompt('Введите данные')));
 
 
 
@@ -419,3 +419,100 @@ alert(seasons(prompt('Введите данные')));
   
 // filterPositive([-1, 0, 5, -10, 56]); // => [-1, -10]
 // filterPositive([-25, 25, 0, -1000, -2]); // => [-25, -1000, -2]
+
+
+
+//Домашняя работа 2.7
+//Задание 1
+// let str = 'js';
+// str = str.toUpperCase();
+// console.log(str);
+
+//Задание 2
+// function filterStrings (array, startStr) {
+//     return array.filter(item => item.toLowerCase().startsWith(startStr.toLowerCase()));
+// }
+// console.log(filterStrings(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'));
+
+//Задание 3
+// console.log(Math.floor(32.58884));
+// console.log(Math.ceil(32.58884));
+// console.log(Math.round(32.58884));
+
+//Задание 4
+// function numbers(minValue, maxValue) {
+//     return Math.min();
+// };
+// console.log(Math.min(52, 53, 49, 77, 21, 32));
+
+// function numbers(minValue, maxValue) {
+//     return Math.max();
+// };
+// console.log(Math.max(52, 53, 49, 77, 21, 32));
+
+//Задание 5
+// function numbers(minValue, maxValue) {
+//     return Math.random()*maxValue;
+// };
+// console.log(numbers(0, 10));
+
+//Задание 6 (?????)
+// function getRandomArrNumbers(number) {
+//     let result = []; 
+//     for (let i = 0; i < x / 2; i++) {
+//         result.push(Math.floor(Math.random() * x))
+//     }
+//     return result
+// }
+
+//Задание 7 
+// function (minValue, maxValue) {
+//     return Math.floor(Math.random() * (maxValue - minValue + 1) + minValue)
+// }
+
+//Задание 8
+// const day = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота']
+// const month = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+
+// let myDate = new Date();
+// let fullDate = myDate.getDate() + ' ' + month[myDate.getMonth()] + ' ' + myDate.getFullYear() + ' ' + day[myDate.getDay()];
+// console.log(fullDate);
+
+//Задание 9
+// const day = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота']
+// const month = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+
+// let myDate = new Date(2024, 0, 73);
+// let fullDate = myDate.getDate() + ' ' + month[myDate.getMonth()] + ' ' + myDate.getFullYear() + ' ' + day[myDate.getDay()];
+// console.log(fullDate);
+
+//Задание 10
+// const day = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота']
+// const month = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+
+// let myDate = new Date();
+// let fullDate = 'Дата: ' + myDate.getDate() + ' ' + month[myDate.getMonth()] + ' ' + myDate.getFullYear() + ' - это ' + day[myDate.getDay()];
+
+// let fullTime = 'Время: ' + myDate.getHours() + ':' + myDate.getMinutes() + ':' + myDate.getSeconds()
+
+// console.log(fullDate);
+// console.log(fullTime);
+
+//Задание 11
+// let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+// fruits = list.sort(() => Math.random() - 0.5);
+// alert(fruits)
+
+// let oneAsk = prompt('Чему равнялся первый элемент массива?')
+// let twoAsk = prompt('Чему равнялся последний элемент массива?')
+
+// if (oneAsk === [0] && twoAsk === [6]) {
+//     alert('Поздравляем, Вы угадали оба элемента')
+// }
+// if (oneAsk === [0] || twoAsk === [6]) {
+//     alert('Вы были близки к победе!')
+// }
+// else {
+//     alert('Вы не угадали ни одного элемента')
+// }
+
